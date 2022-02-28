@@ -16,6 +16,7 @@
 .logo-img-mobile {
   margin-top: 20px;
   margin-left: 30px;
+  width: 150px;
 }
 .mobile-close-icon {
   float: right;
@@ -33,6 +34,7 @@
 }
 .logo-img {
   /* margin-left: 50px; */
+  width: 200px;
 }
 .left-nav {
   right: 0;
