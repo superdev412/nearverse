@@ -1,0 +1,137 @@
+.guideline-content{
+    padding: 50px 200px;
+    margin-top: 100px;
+}
+.nft-guideline-part{
+    display: flex;
+    padding-bottom: 70px;
+}
+.nft-guideline-img{
+    width:500px;
+
+}
+.guideline-description-part{
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+}
+.guideline-mobile{
+    display: none;
+}
+.guideline-main{
+    display: block;
+}
+.guideline-header{
+    font-family: montserrat,sans-serif;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: -.01em;
+    font-size: 3.125rem;
+    color: black;
+    margin-bottom: 60px;
+}
+.guideline-description{
+    font-family: inherit;
+}
+.guideline-meta-description{
+    font-family: montserrat,sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.guideline-description-part1{
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+}
+.nft-guideline-img1{
+    width:500px;
+    margin-left: 50px;
+}
+@media only screen and (max-width: 1599px) {
+    .guideline-content{
+        padding: 50px 100px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .guideline-content{
+        padding: 50px 50px;
+    }
+    .nft-guideline-img{
+        width:350px;
+    }
+    .nft-guideline-img1{
+        width:350px;
+    }
+    .guideline-header{
+        line-height: 1.2;
+        font-size: 2.7rem;
+        margin-bottom: 30px;
+    }
+    .guideline-description{
+        font-family: inherit;
+    }
+    .guideline-meta-description{
+        font-size: 22px;
+    }
+    .guideline-description-part{
+        margin-left: 50px;
+    }
+    .guideline-description-part1{
+        margin-left: 50px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 799px) {
+    .guideline-content{
+        padding: 50px 20px;
+    }
+    .guideline-mobile{
+        display: block;
+        margin: auto;
+    }
+    .guideline-main{
+        display: none;
+    }
+    .guideline-description-part{
+        margin-top: 70px;
+    }
+    .nft-guideline-part{
+        display: block;
+        text-align: center;
+    }
+    .nft-guideline-img{
+        width:350px;
+    }
+    .nft-guideline-img1{
+        width:350px;
+    }
+    .guideline-header{
+        line-height: 1.2;
+        font-size: 2.3rem;
+        margin-bottom: 30px;
+    }
+    .guideline-description{
+        font-family: inherit;
+    }
+    .guideline-meta-description{
+        font-size: 22px;
+    }
+    .guideline-description-part{
+        margin: auto;
+        margin-top: 50px;
+    }
+    .guideline-description-part1{
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 499px) {
+    .nft-guideline-img{
+        width:100%;
+    }
+    .nft-guideline-img1{
+        width:100%;
+    }
+}
