@@ -23,6 +23,7 @@
 .link-icon{
     height: 120px;
     margin: auto;
+    cursor: pointer;
 }
 .NFTLink-title2{
     font-family: montserrat,sans-serif;

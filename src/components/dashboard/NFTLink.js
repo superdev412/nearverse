@@ -6,8 +6,13 @@ import upcoming from '../../assets/img/Upcoming_projects_Icon.jpg'
 
 
 function NFTLink() {
+
+    const toGallery = () => {
+        window.location.href = "./gallery"
+    }
+
     return (
-      <div className='NFTLink-content'>
+      <div id="gallery" className='NFTLink-content'>
         <h2 className='NFTLink-title1'>Here is what we are building now</h2>
         <div>
             <div className='NFTLink-row'>
@@ -17,7 +22,7 @@ function NFTLink() {
                     <p style={{fontFamily: 'inherit',marginTop:'15px'}}>The Launchpad is free to all fully doxxed teams that do not have the dev resources. We believe that transparency increases accountability.  </p>
                 </div>
                 <div className='NFTLink-percon'>
-                    <img src={gallery} className="link-icon" />
+                    <img src={gallery} onClick={toGallery} className="link-icon" />
                     <h3 className='NFTLink-title2'>Virtual 3D-Gallery</h3>
                     <p style={{fontFamily: 'inherit',marginTop:'15px'}}> Hyperrealistic virtual 3D gallery enables you to integrate with NEAR wallet and display your own NFTs. Watch the preview here.</p>
                 </div>

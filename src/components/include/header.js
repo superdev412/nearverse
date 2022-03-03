@@ -30,7 +30,7 @@ function Header(props) {
             <a href="https://apac-rm.roadmunk.com/publish/0040a472d0cb54006e3860838e8347d77a757f0f" className="link-btn" onClick={closemodal}>Roadmap</a>
           </div>
           <div className="mobile-link-con">
-            <a href="./gallery" className="link-btn" onClick={closemodal}>What are we Building?</a>
+            <a href="#gallery" className="link-btn" onClick={closemodal}>What are we Building?</a>
           </div>
           <div className="mobile-link-con">
             <a href="#team" className="link-btn" onClick={closemodal}>Team</a>
@@ -54,7 +54,7 @@ function Header(props) {
                 <a href="https://apac-rm.roadmunk.com/publish/0040a472d0cb54006e3860838e8347d77a757f0f" className="link-btn">Roadmap</a>
               </div>
               <div className="link-con">
-                <a href="./gallery" className="link-btn">What are we Building?</a>
+                <a href="#gallery" className="link-btn">What are we Building?</a>
               </div>
               <div className="link-con">
                 <a href="#team"p className="link-btn">Team</a>
