@@ -62,7 +62,7 @@ class FAQ extends React.Component{
 
     render(){
         return(
-            <div className='team-content'>
+            <div id="faq" className='team-content'>
                 <p className='team-title'>FAQs</p>
                 <div id="drop-part" className="drop-part">
                     <div id="part1" className="each-part-faq">
