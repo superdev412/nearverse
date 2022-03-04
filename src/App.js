@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Dashboard from './components/dashboard/Dashboard';
 import Gallery from './components/gallery/gallery';
+import Blog from './components/blog/Blog';
 import Footer from './components/include/footer';
 
 import {
@@ -18,6 +19,9 @@ function App() {
         <Switch>
           <Route path="/gallery">
             <Gallery />
+          </Route>
+          <Route path="/blog">
+            <Blog />
           </Route>
           <Route path="/">
             <Dashboard />

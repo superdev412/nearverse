@@ -4,7 +4,7 @@ import bgVd from '../../assets/img/bg-video.mp4'
 
 function Introduction() {
     return(
-        <div id="getone" style={{paddingBottom:'300px'}}>
+        <div id="getone" className='introduction-content'>
             <div className='video-part'>
                 <video muted src={bgVd} className="bg-video" autoPlay playsinline loop preload="auto">
                     <source src={bgVd} type="video/mp4" />

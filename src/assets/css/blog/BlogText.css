@@ -1,0 +1,67 @@
+.blogText-content{
+    background-color: white;
+    padding: 50px 150px;
+}
+.blogText-title{
+    font-family: montserrat,sans-serif;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: -.01em;
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+    margin-bottom: 60px;
+    margin-top: 100px;
+}
+.blogText-main-part{
+    width: fit-content;
+    margin: auto;
+}
+.blogText-main-part1{
+    margin: auto;
+    width: 60%;
+}
+.blogText-description{
+    font-family: montserrat,sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    margin-top: 20px;
+}
+.blogText-metades{
+    font-weight: bold;
+    margin-top: 30px;
+}
+.blogText-roadmap-btn{
+    --tw-bg-opacity: 1;
+    background-color: rgba(102,152,154);
+    color: white;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 0.25rem;
+    border: none;   
+    margin-top: 50px;
+}
+.blogText-roadmap-btn:hover{
+    background-color: rgb(152, 189, 190);
+}
+@media only screen and (max-width:1299px) {
+    .blogText-content{
+        padding: 50px 50px;
+    }
+}
+@media only screen and (max-width:799px) {
+    .blogText-content{
+        padding: 50px 15px;
+    }
+    
+    .blogText-main-part1{
+        margin: auto;
+        width: 100%;
+    }
+    .blogText-title{
+        font-size: 2.3rem;
+    }
+    .blogText-description{
+        font-size: 17px;
+    }
+}

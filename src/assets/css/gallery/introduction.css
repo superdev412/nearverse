@@ -1,3 +1,7 @@
+.introduction-content{
+    padding-bottom:500px;
+}
+
 .video-part{
     position:absolute;
     width: 100%;
@@ -68,6 +72,9 @@
     }
 }
 @media only screen and (max-width: 799px) {
+    .introduction-content{
+        padding-bottom:350px;
+    }
     .intro-main-part{
         margin-left: 20px;
         width: 450px;

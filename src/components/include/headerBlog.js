@@ -4,7 +4,7 @@ import menuIcon from '../../assets/img/mobile-menu-btn.png';
 import closeIcon from '../../assets/img/close.png';
 import React, { useState } from 'react';
 
-function Header(props) {
+function HeaderBlog(props) {
   const [modalflag, setModalflag] = useState(false);
   const closemodal = () => {
     setModalflag(false)
@@ -30,16 +30,10 @@ function Header(props) {
             <a href="https://apac-rm.roadmunk.com/publish/0040a472d0cb54006e3860838e8347d77a757f0f" className="link-btn" onClick={closemodal}>Roadmap</a>
           </div>
           <div className="mobile-link-con">
-            <a href="#gallery" className="link-btn" onClick={closemodal}>What are we Building?</a>
+            <a href="#gallery" className="link-btn" onClick={closemodal}>FAQs (should scroll to FAQs  section)</a>
           </div>
           <div className="mobile-link-con">
             <a href="#team" className="link-btn" onClick={closemodal}>Team</a>
-          </div>
-          <div className="mobile-link-con">
-            <a href="./blog" className="link-btn" onClick={closemodal}>Dummy</a>
-          </div>
-          <div className="mobile-link-con">
-            <a href="#roadmap" className="link-btn" onClick={closemodal}>Dummy</a>
           </div>
         </div>
       </div>
@@ -54,16 +48,10 @@ function Header(props) {
                 <a href="https://apac-rm.roadmunk.com/publish/0040a472d0cb54006e3860838e8347d77a757f0f" className="link-btn">Roadmap</a>
               </div>
               <div className="link-con">
-                <a href="#gallery" className="link-btn">What are we Building?</a>
+                <a href="#gallery" className="link-btn">FAQs (should scroll to FAQs  section)</a>
               </div>
               <div className="link-con">
                 <a href="#team"p className="link-btn">Team</a>
-              </div>
-              <div className="link-con">
-                <a href="./blog" className="link-btn">Dummy</a>
-              </div>
-              <div className="link-con">
-                <a href="#roadmap"p className="link-btn">Dummy</a>
               </div>
             </div>
             <div>
@@ -76,4 +64,4 @@ function Header(props) {
   );
 }
 
-export default Header;
+export default HeaderBlog;

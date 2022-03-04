@@ -36,3 +36,19 @@ code {
     url("//db.onlinewebfonts.com/t/55d433372d270829c51e2577a78ef12d.svg#Monument Extended")
       format("svg");
 }
+.slick-prev{
+  margin-left: 60px;
+  z-index: 10;
+  transform: rotate(0deg);
+  top: 45%!important;
+}
+.slick-prev::before{
+  font-size: 50px!important;
+}
+.slick-next:before{
+  font-size: 50px!important;
+}
+.slick-next {
+  margin-right: 80px;
+  top: 45%!important;
+}
