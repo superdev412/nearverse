@@ -1,0 +1,10 @@
+.iframe-part{
+    padding:50px 20px;
+    text-align: center;
+}
+.roadmap-iframe{
+    width: 85%;
+    height: 90vh;
+    border: none;
+    margin: auto;
+}

@@ -3,6 +3,7 @@ import './App.css';
 import Dashboard from './components/dashboard/Dashboard';
 import Gallery from './components/gallery/gallery';
 import Blog from './components/blog/Blog';
+import Roadmap from './components/roadmap/roadmap';
 import Footer from './components/include/footer';
 
 import {
@@ -22,6 +23,9 @@ function App() {
           </Route>
           <Route path="/blog">
             <Blog />
+          </Route>
+          <Route path="/roadmap">
+            <Roadmap />
           </Route>
           <Route path="/">
             <Dashboard />
